@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+.menutg {
+  position: relative;
+  
+}
+
+.searchtg{
+    position: fixed
+;
+    left: 0%;
+    width:fit-content
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    
+}
+body {
+    margin: 0;
+    display: flex;
+    background-color: rgb(32, 32, 32);
+}
+
+.full {
+  flex:75%;
+  padding: 50px;
+  display: flex;
+  justify-content: center;   
+  overflow-y: auto;
+}
+
+.page {
+  display: grid;
+  margin: 0 auto; 
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box; 
+}
+
+.page img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.page img:hover {
+  transform: scale(1.4);
+}
+
+
+
+
+
+
+
